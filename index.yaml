@@ -1,14 +1,30 @@
 apiVersion: v1
 entries:
+  github-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-09-04T00:19:43.653537+05:30"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 28.0.14
+    description: A Helm chart for Kubernetes
+    digest: 3a37a8b02474472ecfee4c9780d5431c8762f0e6fffe404094b0658bb6b4e3a2
+    name: github-demo
+    type: application
+    urls:
+    - https://paranmargan.github.io/helm-charts/github-demo-0.1.0.tgz
+    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.27.0
-    created: "2026-04-19T21:05:02.06793+05:30"
+    created: "2026-09-04T00:19:43.653733+05:30"
     description: A helm chart for deploying nginx to kubernetes
     digest: ff9d902bac5d54756992fcaba5ff83e861a363bf595c738ff001e9cfc10bc930
     name: nginx
     type: application
     urls:
-    - nginx-0.1.0.tgz
+    - https://paranmargan.github.io/helm-charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2026-04-19T21:05:02.067528+05:30"
+generated: "2026-09-04T00:19:43.643865+05:30"
